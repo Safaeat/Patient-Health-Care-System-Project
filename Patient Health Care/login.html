@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log In-Patient Health Care</title>
+		<link rel="icon" type="image/png" href="images/logo.png">
+	</head>
+	<body style="background-image: url('images/background.jpg');">
+		<header>
+			<h1 style="font-size: 80px; color: rgb(11, 189, 5); text-align: center; text-shadow: 2px 2px 4px rgba(219, 17, 17, 0.5);">
+			  Log In
+			</h1>      
+			
+			<p style= "font-size: 24px; text-align: center;">
+			  "Eat well, be active, feel good about yourself."
+		    </p>
+			  <nav style="background-color: #42bbf3; overflow: hidden;">
+				<a href="index.html" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
+				<a href="guidelines.html" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Guidelines</a>
+				<a href="doctors-info.html" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">doctors-info</a>
+				<a href="appointment.html" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Appointment</a>
+			  </nav>        
+			</header> 
+	<main>
+		<section>
+			<center>
+				<fieldset>
+					<legend>--------------------------------------------------------------------------------------------------------------------<b>------Log In Form------</b>------------------------------------------------------------------------------------------------------</legend>
+				<form action="index.html">
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username"><br><br>
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password"><br><br>
+					<label for="user-type">I am a:</label>
+					<select id="user-type" name="user-type">
+						<option value="student">Doctor</option>
+						<option value="teacher">Patient</option>
+                        <option value="teacher">Staff</option>
+					</select><br><br>
+					<input type="submit" value="Login">
+				</form>
+				</fieldset>
+			</center>
+		</section>
+	</main>
+	<br><br>
+
+  <!-- footer section -->
+  <footer><center>
+	<section class="container-fluid footer_section">
+    <p>
+      All Rights Reserved By
+      <a href="https://myselfsafaeat.com/">Safaeat Molla</a>
+    </p>
+  </section>
+  </center></footer>
+  
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

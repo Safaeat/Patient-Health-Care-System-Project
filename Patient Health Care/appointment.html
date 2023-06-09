@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Patient Health Care</title>
+  <link rel="icon" type="text/x-icon" href="images/logo.png">
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- font awesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand mr-5" href="index.html">
+            <img src="images/logo.png" alt="">
+            <span>
+              Patient Health Care
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="guidelines.html">Guidelines</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="doctors-info.html">Doctor's Info</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="appointment.html">Appointment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="app-list.html">Appointment List</a>
+                </li>
+              </ul>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+  </div>
+
+  <div class="body_bg layout_padding">
+    <!-- contact section starts -->
+    <section class="contact_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="contact_form">
+              <h4>Make an Appointment</h4>
+              <form action="app.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="number">Phone Number:</label>
+                  <input type="text" class="form-control" id="number" name="number" required>
+                </div>
+                <div class="form-group">
+                  <label for="hname">Hospital Name:</label>
+                  <input type="text" class="form-control" id="hname" name="hname" required>
+                </div>
+                <div class="form-group">
+                  <label for="id">Patient ID:</label>
+                  <input type="text" class="form-control" id="id" name="id" required>
+                </div>
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="5" id="comment" name="comment" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="map_container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.070794607914!2d85.32367011461643!3d27.70070618279722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18eab27d15d3%3A0x4c21d20ad25a0250!2sPatan%20Hospital!5e0!3m2!1sen!2snp!4v1569325541770!5m2!1sen!2snp"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+  </div>
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="tel:+1-800-555-1234">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  +880-18652-16805
+                </span>
+              </a>
+              <a href="mailto:info@example.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  Safaeat Molla
+                </span>
+              </a>
+              <a href="https://goo.gl/maps/">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Bangladesh
+                </span>
+              </a>
+            </div>
+            <div class="footer_social_icon">
+              <a href="https://www.linkedin.com/in/safaeat-molla-07660525a/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/safaeat-molla-07660525a/">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/safaeat-molla-07660525a/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/safaeat-molla-07660525a/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- JavaScript files -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
